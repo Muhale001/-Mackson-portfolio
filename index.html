@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mackson Muhale Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #020617;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .hero {
+      max-width: 1100px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      align-items: center;
+    }
+
+    .hero img {
+      width: 320px;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid #2563eb;
+      margin: auto;
+      display: block;
+    }
+
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #3b82f6;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+    }
+
+    .blue {
+      color: #3b82f6;
+    }
+
+    section {
+      padding: 80px 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: #0f172a;
+      padding: 25px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #1e293b;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 14px 28px;
+      text-decoration: none;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #1e293b;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="hero">
+    <div>
+      <p class="blue">Applied Statistician & Data Analyst</p>
+      <h1>Mackson <span class="blue">Muhale</span></h1>
+      <p>
+        Passionate about transforming raw data into meaningful insights through
+        statistical analysis, predictive modeling, and data visualization.
+      </p>
+
+      <a href="#projects" class="button">View Projects</a>
+    </div>
+
+    <div>
+      <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000&auto=format&fit=crop" alt="Profile Photo">
+    </div>
+  </div>
+</header>
+
+<section>
+  <h2>About Me</h2>
+
+  <div class="card">
+    <p>
+      I am a graduate of Applied Statistics from The Cooperative University of Kenya.
+      Skilled in R, Python, SQL, Excel, predictive modeling, and statistical analysis.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+
+  <div class="grid">
+    <div class="card">Python Programming</div>
+    <div class="card">R Programming</div>
+    <div class="card">SQL Databases</div>
+    <div class="card">Data Visualization</div>
+    <div class="card">Predictive Modeling</div>
+    <div class="card">Statistical Analysis</div>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+
+  <div class="card">
+    <h3>The Cooperative University of Kenya</h3>
+    <p>Bachelor of Science in Applied Statistics (2021 - 2025)</p>
+  </div>
+
+  <div class="card">
+    <h3>Cardinal Otunga High School</h3>
+    <p>KCSE Mean Grade: B Plain</p>
+  </div>
+</section>
+
+<section>
+  <h2>Work Experience</h2>
+
+  <div class="card">
+    <h3>County Government of Vihiga</h3>
+    <p>Industrial Trainee (2024)</p>
+  </div>
+
+  <div class="card">
+    <h3>CUKSU Election Clerk</h3>
+    <p>2025</p>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Customer Churn Prediction</h3>
+      <p>Using logistic regression for customer retention analysis.</p>
+    </div>
+
+    <div class="card">
+      <h3>Stock Market Trend Analysis</h3>
+      <p>Applied ARIMA models for forecasting trends.</p>
+    </div>
+
+    <div class="card">
+      <h3>Population Projection</h3>
+      <p>Conducted time series population projections for Vihiga County.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact</h2>
+
+  <div class="card">
+    <p>Email: muhalemackson@gmail.com</p>
+    <p>Phone: +254 793760016</p>
+    <p>Location: Karen, Kenya</p>
+
+    <a href="https://github.com" class="button">GitHub</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Mackson Muhale Portfolio</p>
+</footer>
+
+</body>
+</html>
